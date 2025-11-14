@@ -3,7 +3,7 @@ const bouton = document.getElementById("btnTelecharger");
 const animationZone = document.getElementById("animationZone");
 
 // URL du fichier APK ou du store
-const lienTelechargement = "statique/TikeTa_v1.0.5.apk"; // à remplacer
+const lienTelechargement = "statique/TikeTa_v1.0.6.apk"; // à remplacer
 
 bouton.addEventListener("click", () => {
   // 1️⃣ Téléchargement de l'application
