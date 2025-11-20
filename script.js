@@ -46,15 +46,15 @@
       'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633037/Screenshot_20251120_095855_com.example.tiketa_vaty2j.jpg',
       'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633039/Screenshot_20251120_095858_com.example.tiketa_jnxjie.jpg',
       'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633039/Screenshot_20251120_095901_com.example.tiketa_qtonkv.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095903_com.example.tiketa_uih6ix.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095906_com.example.tiketa_xnvgym.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633046/Screenshot_20251120_095910_com.example.tiketa_yqmx2e.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095903_com.example.tiketa_uih6ix.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095906_com.example.tiketa_xnvgym.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633046/Screenshot_20251120_095910_com.example.tiketa_yqmx2e.jpg',
 
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095915_com.example.tiketa_qfrtbo.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633044/Screenshot_20251120_095942_com.example.tiketa_nty4kq.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633046/Screenshot_20251120_095948_com.example.tiketa_w3mfao.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633047/Screenshot_20251120_095957_com.example.tiketa_m9yiir.jpg',
-      // 'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633036/Screenshot_20251120_100004_com.example.tiketa_tnow3i.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095915_com.example.tiketa_qfrtbo.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633044/Screenshot_20251120_095942_com.example.tiketa_nty4kq.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633046/Screenshot_20251120_095948_com.example.tiketa_w3mfao.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633047/Screenshot_20251120_095957_com.example.tiketa_m9yiir.jpg',
+      'https://res.cloudinary.com/diwsojrlc/image/upload/v1763633036/Screenshot_20251120_100004_com.example.tiketa_tnow3i.jpg',
     ];
   }
   function saveImages(){
