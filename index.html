@@ -3,20 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-
   <link rel="shortcut icon" href="https://res.cloudinary.com/diwsojrlc/image/upload/v1762258046/logo_wde3ue.png" type="image/x-icon">
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
-  
-  <title>TikeTa • Appli de voyage</title>
 
+  <title>TiKeTa • Téléchargement App</title>
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div id="app" class="wrap" role="main">
+    <!-- LEFT -->
     <section class="hero" aria-labelledby="hero-title">
       <span class="badge">Nouveau • 2025</span>
       <h1 id="hero-title">
-        Télécharge <span style="color:var(--accent)">TikeTa</span>
+        Télécharge <span style="color:var(--accent)">TiKeTa</span>
         <span class="typing" id="typing"></span>
       </h1>
       <p class="lead">Application légère, design clair et animations fluides — photos grandes, boutons visibles, navigation tactile sur mobile.</p>
@@ -29,11 +28,14 @@
       <p class="muted" style="margin-top:14px">Astuce : tu peux ajouter les images de l'application dans la colonne de droite — elles seront montrées ici.</p>
     </section>
 
+    <!-- RIGHT -->
     <aside class="card" aria-labelledby="preview-title">
       <div class="carousel" id="carousel" role="region" aria-label="Aperçu des images de l'application">
         <div class="slides" id="slides">
+          <!-- slides injected dynamically -->
         </div>
 
+        <!-- navigation -->
         <button class="nav-button nav-left" id="prevBtn" aria-label="Précédent">‹</button>
         <button class="nav-button nav-right" id="nextBtn" aria-label="Suivant">›</button>
 
@@ -48,11 +50,18 @@
 
         <div style="display:flex;gap:10px;align-items:center">
           <button class="btn ghost" id="playPause" aria-pressed="false">Pause</button>
+          <button class="btn ghost" id="clearAll"></button>
         </div>
       </div>
 
+      <div class="url-form" aria-label="Ajouter une image">
+        <!-- <input type="url" id="imgUrl" placeholder="Coller l'URL d'une image (https://...)" aria-label="URL image"> -->
+        <button id="addUrl">Ajouter</button>
+      </div>
     </aside>
   </div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
