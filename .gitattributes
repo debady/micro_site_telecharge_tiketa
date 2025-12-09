@@ -1,1 +1,2 @@
-statique/TikeTa.apk filter=lfs diff=lfs merge=lfs -text
+statique/TikeTa2.0.7.apk filter=lfs diff=lfs merge=lfs -text
+statique/convoyeur_tiketa_v1.0.9.apk filter=lfs diff=lfs merge=lfs -text

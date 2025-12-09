@@ -1,65 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikeTa - Réservez vos billets de voyage</title>
   <link rel="shortcut icon" href="https://res.cloudinary.com/diwsojrlc/image/upload/v1762258046/logo_wde3ue.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
 
-  <title>TiKeTa • Téléchargement App</title>
-
-  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div id="app" class="wrap" role="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <span class="badge">Nouveau • 2025</span>
-      <h1 id="hero-title">
-        Télécharge <span style="color:var(--accent)">TiKeTa</span>
-        <span class="typing" id="typing"></span>
+
+  <div class="wrap">
+    <!-- LEFT -->
+    <div class="hero">
+      <div class="badge">NOUVELLE VERSION 2.0.7</div>
+      <h1>
+        Voyagez<br>
+        <span class="typing">simplement</span>
       </h1>
-      <p class="lead">Application légère, design clair et animations fluides — photos grandes, boutons visibles, navigation tactile sur mobile.</p>
+      <p class="lead">
+        Réservez vos billets en quelques clics. Voyageurs et convoyeurs connectés.
+      </p>
 
+      <div class="cta-row">
+        <a class="btn" href="statique/TikeTa_v2.0.7.apk" aria-label="Télécharger voyageur">
+           Voyageur
+        </a>
+        <a class="btn" href="statique/convoyeur_tiketa_v1.0.9.apk" aria-label="Télécharger convoyeur">
+           Convoyeur
+        </a>
+        <a class="btn ghost" href="https://tike-ta-app-client-2xxj.vercel.app/" aria-label="Démo web">
+           Démo
+        </a>
+      </div>
+    </div>
 
-      <p class="muted" style="margin-top:14px">Astuce : tu peux ajouter les images de l'application dans la colonne de droite — elles seront montrées ici.</p>
-    </section>
-
-    <aside class="card" aria-labelledby="preview-title">
-      <div class="carousel" id="carousel" role="region" aria-label="Aperçu des images de l'application">
+    <!-- RIGHT -->
+    <div class="card">
+      <div class="carousel">
         <div class="slides" id="slides">
-        </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633037/Screenshot_20251120_095855_com.example.tiketa_vaty2j.jpg" alt="Screenshot 1">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633039/Screenshot_20251120_095858_com.example.tiketa_jnxjie.jpg" alt="Screenshot 2">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633039/Screenshot_20251120_095901_com.example.tiketa_qtonkv.jpg" alt="Screenshot 3">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095903_com.example.tiketa_uih6ix.jpg" alt="Screenshot 4">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095906_com.example.tiketa_xnvgym.jpg" alt="Screenshot 5">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633046/Screenshot_20251120_095910_com.example.tiketa_yqmx2e.jpg" alt="Screenshot 6">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633042/Screenshot_20251120_095915_com.example.tiketa_qfrtbo.jpg" alt="Screenshot 7">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633044/Screenshot_20251120_095942_com.example.tiketa_nty4kq.jpg" alt="Screenshot 8">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633046/Screenshot_20251120_095948_com.example.tiketa_w3mfao.jpg" alt="Screenshot 9">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633047/Screenshot_20251120_095957_com.example.tiketa_m9yiir.jpg" alt="Screenshot 10">
+            </div>
+            <div class="slide">
+              <img src="https://res.cloudinary.com/diwsojrlc/image/upload/v1763633036/Screenshot_20251120_100004_com.example.tiketa_tnow3i.jpg" alt="Screenshot 11">
+            </div>
+          </div>
 
-        <button class="nav-button nav-left" id="prevBtn" aria-label="Précédent">‹</button>
-        <button class="nav-button nav-right" id="nextBtn" aria-label="Suivant">›</button>
+        <div class="nav-button nav-left" id="prevBtn">‹</div>
+        <div class="nav-button nav-right" id="nextBtn">›</div>
 
-        <div class="controls" id="dots"></div>
+        <div class="controls" id="controls"></div>
       </div>
-
-      <div class="meta">
-        <div>
-          <div style="font-weight:800">Aperçu de l'application</div>
-          <div class="small muted">Images: <span id="count">0</span></div>
-        </div>
-
-        <div style="display:flex;gap:10px;align-items:center">
-          <button class="btn ghost" id="playPause" aria-pressed="false">Pause</button>
-          <button class="btn ghost" id="clearAll"></button>
-        </div>
-      </div>
-
-      <div class="url-form" aria-label="Ajouter une image">
-        <button id="addUrl"></button>
-      </div>
-    </aside>
+    </div>
   </div>
-
-  
-      <div class="cta-row" role="region" aria-label="Téléchargements">
-        <a class="btn" href="statique/TikeTa_v2.0.7.apk" id="btn-download-android" aria-label="Télécharger Android">Télécharger TikeTa v2.0.7</a>
-        <a class="btn" href="statique/convoyeur_tiketa_v1.0.9.apk" id="btn-download-android" aria-label="Télécharger Android">controleur_tiketa_v1.0.9</a>
-        <a class="btn ghost" href="https://tike-ta-app-client-2xxj.vercel.app/" id="btn-visit" aria-label="Visiter la démo">Visiter la démo</a>
-      </div>
-
   <script src="script.js"></script>
+
+
 
 </body>
 </html>
